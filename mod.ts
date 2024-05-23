@@ -1,4 +1,5 @@
 /**
+ * @module
  * # @pipisasa/storage - Abstraction for Storage implementations
  * 
  * Such as `LocalStorage`, `SessionStorage`, `Cookie` ext.
