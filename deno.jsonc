@@ -1,7 +1,0 @@
-{
-  "name": "@pipisasa/storage",
-  "version": "1.0.0",
-  "exports": "./mod.ts",
-  "include": ["src/**/*.ts", "mod.ts"],
-  "exclude": ["src/**/*.test.ts", "example.ts"]
-}
