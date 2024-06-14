@@ -3,6 +3,7 @@
   "version": "0.1.2",
   "exports": {
     ".": "./mod.ts",
-    "./localStorage": "./localStorage.ts"
+    "./localStorage": "./localStorage.ts",
+    "./abstraction": "./abstraction.ts"
   }
 }
