@@ -19,6 +19,19 @@ const storage = new Storage<MyStorage>({
   jsonSerializer: defaultJSONSerializer,
 });
 
+// const storageWithSuperJson = new Storage<MyStorage>({
+//   prefix: "some-prefix:",
+//   provider: new LocalStorageProvider(),
+//   jsonSerializer: {
+//     stringify(value) {
+//       return superjson.stringify(value);
+//     },
+//     parse(value) {
+//       return superjson.parse(value);
+//     }
+//   }
+// });
+
 const a = storage.get("products"); // a: Product[]
 
 storage.set("products", [{ id: 123, name: "adsfasdf" }]);
