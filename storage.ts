@@ -64,10 +64,11 @@ export class Storage<
   TKey extends keyof StorageValues & string = keyof StorageValues & string,
 > {
   options: StorageOptions;
-  constructor(options?: StorageOptions) {
-    this.options = options ?? {
-      jsonSerializer: defaultJSONSerializer,
-      provider: new LocalStorageProvider(),
+  constructor(options?: Partial<StorageOptions>) {
+    this.options = {
+      prefix: options?.prefix ?? '',
+      jsonSerializer: options?.jsonSerializer ?? defaultJSONSerializer,
+      provider: options?.provider ?? new LocalStorageProvider(),
     };
   }
 
