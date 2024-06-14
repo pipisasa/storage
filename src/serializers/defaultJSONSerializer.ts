@@ -20,7 +20,7 @@
  * */
 
 
-import { JSONSerializer } from "../types";
+import { JSONSerializer } from "../types.ts";
 
 /**
  * Default JSON serializer implementation

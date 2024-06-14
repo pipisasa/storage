@@ -1,6 +1,6 @@
-import { EventHandler, Storage } from './mod'
-import { LocalStorageProvider } from './src/providers/localStorage';
-import { defaultJSONSerializer } from './src/serializers/defaultJSONSerializer';
+import { EventHandler, Storage } from './mod.ts'
+import { LocalStorageProvider } from './src/providers/localStorage.ts';
+import { defaultJSONSerializer } from './src/serializers/defaultJSONSerializer.ts';
 
 type Product = {
   id: number;

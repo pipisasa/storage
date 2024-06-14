@@ -1,6 +1,6 @@
-import { StorageOptions, StorageEvent, EventHandler, StorageEventType, StorageAction } from "./types";
-import { defaultJSONSerializer } from "./serializers/defaultJSONSerializer";
-import { LocalStorageProvider } from "./providers/localStorage";
+import { StorageOptions, StorageEvent, EventHandler, StorageEventType, StorageAction } from "./types.ts";
+import { defaultJSONSerializer } from "./serializers/defaultJSONSerializer.ts";
+import { LocalStorageProvider } from "./providers/localStorage.ts";
 
 /**
  * Typesafe Storage with event listeners.
