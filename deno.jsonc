@@ -1,9 +1,9 @@
 {
   "name": "@pipisasa/storage",
-  "version": "0.1.3",
+  "version": "1.0.0",
   "exports": {
     ".": "./mod.ts",
-    "./localStorage": "./localStorage.ts",
-    "./abstraction": "./abstraction.ts"
+    "./src/providers/localStorage": "./src/providers/localStorage.ts",
+    "./src/serializers/defaultJSONSerializer": "./src/serializers/defaultJSONSerializer.ts"
   }
 }
